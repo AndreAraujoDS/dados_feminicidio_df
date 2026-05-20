@@ -320,7 +320,8 @@
   .h3{ background: #F87171; color: #7F1D1D; }
   .h4{ background: #EF4444; color: #FFFFFF; }
   
-  .footer-note{ font-size: 11px; color: var(--muted); padding: 24px; border-top: 1px solid var(--border); text-align: left; }
+  .group-credits{ font-size: 11px; color: var(--text-main); font-weight: 600; padding: 24px 24px 0 24px; text-align: left; }
+  .footer-note{ font-size: 11px; color: var(--muted); padding: 8px 24px 24px 24px; text-align: left; }
 </style>
 </head>
 <body>
@@ -376,10 +377,10 @@
   </div>
 </div>
 
-<div class="footer-note">Nota: Este painel destina-se à análise técnica e consolidação de séries históricas baseadas em dados de transparência ativa do Governo do Distrito Federal. Fontes primárias: PCDF / SSP-DF | Projeções de base populacional: IBGE.</div>
+<div class="group-credits">Feito pelo grupo de Ciência de Dados do IBMECDF — André Araújo, Davi Maeda, Ana Dornelles, Gabriel Simão, João Marcelo</div>
+<div class="footer-note">Nota: Este painel destina-se à análise técnica e consolidação de séries históricas baseadas em dados de transparência activa do Governo do Distrito Federal. Fontes primárias: PCDF / SSP-DF | Projeções de base populacional: IBGE.</div>
 
 <script>
-// Mantendo a lógica de processamento intacta e operável
 const YEARS=[2015,2016,2017,2018,2019,2020,2021,2022,2023,2024];
 const DF_TOTAL={2015:9,2016:22,2017:17,2018:27,2019:33,2020:18,2021:26,2022:20,2023:31,2024:23};
 const POP={'Ceilândia':299331,'Samambaia':236783,'Planaltina':127041,'Santa Maria':126811,'Taguatinga':209900,'Gama':139648,'São Sebastião':103265,'Recanto das Emas':110367,'Sobradinho':73612,'Sobradinho II':83333,'Paranoá':57915,'Itapoã':69873,'Vicente Pires':109533,'Sol Nascente/Pôr do Sol':113339,'Águas Claras':147909,'Riacho Fundo II':73166,'Riacho Fundo':42786,'Lago Norte':45681,'Lago Sul':28371,'Arniqueira':46679,'Brazlândia':43640,'SCIA/Estrutural':39666,'Candangolândia':15158,'Cruzeiro':27560,'Fercal':9530,'Jardim Botânico':78330,'Guará':133397,'Núcleo Bandeirante':23526,'Park Way':23631,'Brasília (Plano Piloto)':216847,'Sudoeste/Octogonal':47961,'Varjão':9400,'SIA':5869};
